@@ -20,14 +20,14 @@ var APP_DATA = {
       ],
       "faceSize": 1000,
       "initialViewParameters": {
-        "yaw": -0.09174318682844529,
-        "pitch": -0.18564087574347354,
+        "yaw": -0.07625231317321735,
+        "pitch": -0.12268541530737842,
         "fov": 1.375563747385772
       },
       "linkHotspots": [
         {
-          "yaw": -0.09014924225010645,
-          "pitch": -0.17567967025875753,
+          "yaw": -0.14742569779212644,
+          "pitch": -0.17605887437608914,
           "rotation": 0,
           "target": "1-2"
         }
@@ -54,14 +54,14 @@ var APP_DATA = {
       ],
       "faceSize": 1000,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.07909993185699449,
+        "pitch": -0.053903520900583146,
+        "fov": 1.375563747385772
       },
       "linkHotspots": [
         {
-          "yaw": -0.05668590721284339,
-          "pitch": -0.13698315726670884,
+          "yaw": -0.0040276828892107375,
+          "pitch": -0.13197976495187547,
           "rotation": 0,
           "target": "0-1"
         }
@@ -73,7 +73,7 @@ var APP_DATA = {
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": true,
-    "viewControlButtons": true
+    "fullscreenButton": false,
+    "viewControlButtons": false
   }
 };
