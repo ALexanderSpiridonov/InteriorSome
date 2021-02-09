@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-pano_11",
-      "name": "pano_1.1",
+      "id": "0-12sharpen",
+      "name": "1.2(sharpen)",
       "levels": [
         {
           "tileSize": 256,
@@ -16,27 +16,31 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 1000,
+      "faceSize": 1500,
       "initialViewParameters": {
-        "yaw": -0.048331732677262096,
-        "pitch": 0.044664755719438176,
-        "fov": 1.3715802068843215
+        "yaw": 0.6847067302225014,
+        "pitch": 0.10860832745150972,
+        "fov": 1.350113863664377
       },
       "linkHotspots": [
         {
-          "yaw": 0.03423311869318013,
-          "pitch": 0.08224313655870219,
+          "yaw": 0.08419117698027634,
+          "pitch": 0.16221393295364095,
           "rotation": 0,
-          "target": "1-pano_2"
+          "target": "1-22-sharpen"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-pano_2",
-      "name": "pano_2",
+      "id": "1-22-sharpen",
+      "name": "2.2 (sharpen)",
       "levels": [
         {
           "tileSize": 256,
@@ -50,20 +54,68 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 750,
+      "faceSize": 1500,
       "initialViewParameters": {
-        "yaw": 0.0349103514472997,
-        "pitch": 0.12959959163178247,
-        "fov": 1.3715802068843215
+        "yaw": 3.1137586436439175,
+        "pitch": 0.06415644943261967,
+        "fov": 1.350113863664377
       },
       "linkHotspots": [
         {
-          "yaw": 0,
-          "pitch": 0,
+          "yaw": 0.032926680190721314,
+          "pitch": 0.12013491363491369,
           "rotation": 0,
-          "target": "0-pano_11"
+          "target": "2-32sharpen"
+        },
+        {
+          "yaw": -3.1133767380073163,
+          "pitch": -0.03471620541401066,
+          "rotation": 0,
+          "target": "0-12sharpen"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-32sharpen",
+      "name": "3.2(sharpen)",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "yaw": 0,
+        "pitch": 0,
+        "fov": 1.350113863664377
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.1195922504501734,
+          "pitch": 0.10562089237851247,
+          "rotation": 0,
+          "target": "1-22-sharpen"
         }
       ],
       "infoHotspots": []
